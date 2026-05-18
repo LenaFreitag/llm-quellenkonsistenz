@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+data/raw/*.jsonl
+data/raw/*.json
+data/processed/*.csv
+results/*.csv
+results/*.png

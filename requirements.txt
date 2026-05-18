@@ -1,0 +1,6 @@
+pandas
+requests
+python-dotenv
+tldextract
+jupyter
+matplotlib
