@@ -1,2 +1,2 @@
-prompt_id,prompt_text
-1,"Gib mir nützliche Quellen zum Thema 'Klimawandel Auswirkungen auf Landwirtschaft'"
+prompt_id,category,prompt
+P01,Faktische Frage,"Was ist die Berliner Hochschule für Technik? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."

@@ -1,6 +1,6 @@
-pandas
-requests
+google-genai
 python-dotenv
+pandas
 tldextract
 jupyter
 matplotlib
