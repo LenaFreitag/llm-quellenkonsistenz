@@ -15,9 +15,9 @@ from google.genai import types
 # Konfiguration
 # =========================
 
-MODEL_NAME = "gemini-2.5-flash"
-RUNS_PER_PROMPT = 1
-REQUEST_SLEEP_SECONDS = 3
+MODEL_NAME = "gemini-3.1-flash-lite"
+RUNS_PER_PROMPT = 3
+REQUEST_SLEEP_SECONDS = 7
 
 PROMPTS_FILE = Path("prompts.csv")
 RAW_OUTPUT_FILE = Path("data/raw/raw_runs.jsonl")

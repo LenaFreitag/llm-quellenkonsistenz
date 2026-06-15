@@ -1,2 +1,11 @@
 prompt_id,category,prompt
 P01,Faktische Frage,"Was ist die Berliner Hochschule für Technik? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
+P02,Faktische Frage,"Wie viele Einwohner hat die Stadt Wien laut aktuellen Statistiken? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
+P03,Faktische Frage,"Was ist der gesetzliche Mindestlohn in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
+P04,Faktische Frage,"Wann beginnt in Deutschland die Sommerzeit? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
+P05,Prozedurale Frage,"Wie beantrage ich einen deutschen Reisepass? Erkläre die Schritte kurz auf Deutsch und nutze aktuelle Webquellen."
+P06,Prozedurale Frage,"Wie kann ich in Deutschland einen Mobilfunkvertrag kündigen? Welche Fristen gelten? Erkläre kurz auf Deutsch und nutze aktuelle Webquellen."
+P07,Prozedurale Frage,"Wie melde ich mich in Deutschland um? Erkläre die Schritte kurz auf Deutsch und nutze aktuelle Webquellen."
+P08,Aktuelles Thema,"Was sind die aktuellen Benzinpreise in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
+P09,Aktuelles Thema,"Was ist der aktuelle Stand der Energiewende in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
+P10,Aktuelles Thema,"Welche Filme laufen aktuell im Kino in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
