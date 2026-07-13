@@ -1,11 +1,11 @@
 prompt_id,category,prompt
-P01,Faktische Frage,"Was ist die Berliner Hochschule für Technik? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
-P02,Faktische Frage,"Wie viele Einwohner hat die Stadt Wien laut aktuellen Statistiken? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
-P03,Faktische Frage,"Was ist der gesetzliche Mindestlohn in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
-P04,Faktische Frage,"Wann beginnt in Deutschland die Sommerzeit? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
-P05,Prozedurale Frage,"Wie beantrage ich einen deutschen Reisepass? Erkläre die Schritte kurz auf Deutsch und nutze aktuelle Webquellen."
-P06,Prozedurale Frage,"Wie kann ich in Deutschland einen Mobilfunkvertrag kündigen? Welche Fristen gelten? Erkläre kurz auf Deutsch und nutze aktuelle Webquellen."
-P07,Prozedurale Frage,"Wie melde ich mich in Deutschland um? Erkläre die Schritte kurz auf Deutsch und nutze aktuelle Webquellen."
-P08,Aktuelles Thema,"Was sind die aktuellen Benzinpreise in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
-P09,Aktuelles Thema,"Was ist der aktuelle Stand der Energiewende in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
-P10,Aktuelles Thema,"Welche Filme laufen aktuell im Kino in Deutschland? Antworte kurz auf Deutsch und nutze aktuelle Webquellen."
+P01,Faktische Frage,Was sind die aktuellen wissenschaftlichen Erkenntnisse zum Klimawandel? Bitte gib Quellen als vollständige URLs an.
+P02,Faktische Frage,Wie hoch ist der aktuelle Mindestlohn in Deutschland? Bitte gib Quellen als vollständige URLs an.
+P03,Faktische Frage,Wie viele Menschen leben aktuell in Berlin? Bitte gib Quellen als vollständige URLs an.
+P04,Faktische Frage,Was kostet ein Semesterticket in Berlin aktuell? Bitte gib Quellen als vollständige URLs an.
+P05,Prozedurale Frage,Wie beantrage ich Kindergeld in Deutschland? Bitte gib Quellen als vollständige URLs an.
+P06,Prozedurale Frage,Wie kündige ich einen Handyvertrag in Deutschland? Bitte gib Quellen als vollständige URLs an.
+P07,Prozedurale Frage,Wie melde ich mich beim Einwohnermeldeamt in Berlin an? Bitte gib Quellen als vollständige URLs an.
+P08,Aktuelles Thema,Was sind die aktuellen Benzinpreise in Deutschland? Bitte gib Quellen als vollständige URLs an.
+P09,Aktuelles Thema,Welche Filme laufen aktuell in deutschen Kinos? Bitte gib Quellen als vollständige URLs an.
+P10,Aktuelles Thema,Was sind die aktuellen Nachrichten zur deutschen Bundesregierung? Bitte gib Quellen als vollständige URLs an.

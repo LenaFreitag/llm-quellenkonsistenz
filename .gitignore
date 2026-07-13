@@ -6,5 +6,7 @@ __pycache__/
 data/raw/*.jsonl
 data/raw/*.json
 data/processed/*.csv
+data/analysis
+
 results/*.csv
 results/*.png
