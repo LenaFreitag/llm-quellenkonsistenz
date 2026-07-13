@@ -1,27 +1,23 @@
 # LLM-Quellenkonsistenz
 
-Analysen zur Konsistenz von Quellenangaben bei wiederholten Anfragen an ein KI-Suchsystem.
+Untersuchung der Konsistenz von Quellenangaben bei wiederholten Anfragen an ein KI-Suchsystem.
 
-## Was ist das?
+## Struktur
 
-Dieses Projekt testet, wie stabil und konsistent ein KI-System Quellen angibt. Wenn ich dieselbe Frage mehrmals stelle, bekomme ich dann die gleichen Quellen? Diese Projekt sammelt und analysiert genau das.
+- **`collect_data.py`** – Datenerfassung über API
+- **`prompts.csv`** – Testfragen
+- **`data/raw/`** – Rohe API-Antworten
+- **`data/processed/`** – Bereinigte Quellenlisten
+- **`data/analysis/`** – Auswertungsergebnisse
+- **`notebooks/`** – Analysen in Jupyter
+- **`results/`** – Ergebnisdateien
 
-## Wie ist es organisiert?
-
-- **`collect_data.py`**: Sammelt Daten über die API
-- **`data/raw/`**: Rohe Antworten von der API
-- **`data/processed/`**: Bereinigte Quellenlisten zum Analysieren
-- **`data/analysis/`**: Auswertungsergebnisse und Statistiken
-- **`notebooks/`**: Jupyter Notebooks für die Datenanalyse
-- **`prompts.csv`**: Die verwendeten Testfragen
-- **`results/`**: Finale Ergebnisse
-
-## Quick Start
+## Setup
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # oder .venv\Scripts\activate auf Windows
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Den API-Key in eine `.env` Datei speichern (nicht committen!).
+API-Key in `.env` speichern.
