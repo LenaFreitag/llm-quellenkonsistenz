@@ -1,27 +1,27 @@
-# Konsistenz von LLM-Quellenangaben
+# LLM-Quellenkonsistenz
 
-Dieses Projekt enthält die Datenerhebung und Auswertung für ein Seminarpaper zur Stabilität von Quellenangaben bei wiederholten identischen Anfragen an ein generatives Suchsystem.
+Analysen zur Konsistenz von Quellenangaben bei wiederholten Anfragen an ein KI-Suchsystem.
 
-## Struktur
+## Was ist das?
 
-- `prompts.csv`: verwendete Prompts
-- `collect_data.py`: Datenerhebung über die Perplexity API
-- `data/raw/`: rohe API-Antworten
-- `data/processed/`: aufbereitete Quellenlisten
-- `notebooks/analysis.ipynb`: Auswertung
-- `results/`: Ergebnisdateien und Abbildungen
-- `paper/`: LaTeX-Dateien des Papers
+Dieses Projekt testet, wie stabil und konsistent ein KI-System Quellen angibt. Wenn ich dieselbe Frage mehrmals stelle, bekomme ich dann die gleichen Quellen? Diese Projekt sammelt und analysiert genau das.
 
-## Setup
+## Wie ist es organisiert?
+
+- **`collect_data.py`**: Sammelt Daten über die API
+- **`data/raw/`**: Rohe Antworten von der API
+- **`data/processed/`**: Bereinigte Quellenlisten zum Analysieren
+- **`data/analysis/`**: Auswertungsergebnisse und Statistiken
+- **`notebooks/`**: Jupyter Notebooks für die Datenanalyse
+- **`prompts.csv`**: Die verwendeten Testfragen
+- **`results/`**: Finale Ergebnisse
+
+## Quick Start
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # oder .venv\Scripts\activate auf Windows
 pip install -r requirements.txt
 ```
 
-Der API-Key wird lokal in einer `.env` gespeichert und nicht versioniert.
-
-## Hinweise
-
-Wichtig: API-Key niemals committen. Nutze eine `.env` und schließe sie via `.gitignore` aus.
+Den API-Key in eine `.env` Datei speichern (nicht committen!).
